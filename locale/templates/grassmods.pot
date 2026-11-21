@@ -8,13 +8,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-05 18:44+0000\n"
+"POT-Creation-Date: 2026-11-21 21:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../db/db.columns/main.c:65 ../db/db.describe/main.c:79
 #: ../doc/examples/vector/v.example/main.c:139
-#: ../scripts/db.univar/db.univar.py:122 ../vector/v.db.connect/main.c:347
+#: ../scripts/db.univar/db.univar.py:120 ../vector/v.db.connect/main.c:347
 #: ../vector/v.extract/main.c:230 ../vector/v.in.ascii/main.c:444
 #: ../vector/v.info/print.c:236 ../vector/v.out.ogr/main.c:715
 #: ../vector/v.out.postgis/table.c:41 ../vector/v.out.svg/main.c:162
@@ -369,7 +369,7 @@ msgstr ""
 #: ../raster/r.regression.multi/main.c:210
 #: ../raster/r.univar/r.univar_main.c:217
 #: ../raster/r.univar/r3.univar_main.c:173
-#: ../scripts/db.univar/db.univar.py:115
+#: ../scripts/db.univar/db.univar.py:113
 #: ../scripts/v.db.univar/v.db.univar.py:92 ../temporal/t.connect/main.c:144
 #: ../vector/v.univar/main.c:174 ../vector/v.what/main.c:192
 msgid "Flag 'g' is deprecated and will be removed in a future release. Please use format=shell instead."
@@ -1237,7 +1237,7 @@ msgstr ""
 msgid "OGR layer <%s> not found"
 msgstr ""
 
-#: ../db/drivers/ogr/execute.c:76 ../scripts/db.univar/db.univar.py:130
+#: ../db/drivers/ogr/execute.c:76 ../scripts/db.univar/db.univar.py:128
 #: ../vector/v.colors.out/make_colors.c:42 ../vector/v.colors/scan_attr.c:34
 #: ../vector/v.db.connect/main.c:484 ../vector/v.distance/main.c:570
 #: ../vector/v.distance/main.c:612 ../vector/v.in.db/main.c:192
@@ -4103,7 +4103,6 @@ msgstr ""
 msgid "Get text color from cell color value"
 msgstr ""
 
-#. GTC Count of window rows
 #. GTC Count of raster rows
 #. GTC Count of window rows
 #: ../display/d.rast.num/main.c:208 ../raster/r.thin/io.c:110
@@ -9404,17 +9403,14 @@ msgid "Preliminary scene analysis:"
 msgstr ""
 
 #: ../imagery/i.landsat.acca/algorithm.c:125
-#, c-format
 msgid "* Desert index: %.2lf"
 msgstr ""
 
 #: ../imagery/i.landsat.acca/algorithm.c:126
-#, c-format
 msgid "* Snow cover: %.2lf %%"
 msgstr ""
 
 #: ../imagery/i.landsat.acca/algorithm.c:127
-#, c-format
 msgid "* Cloud cover: %.2lf %%"
 msgstr ""
 
@@ -9423,17 +9419,14 @@ msgid "* Temperature of clouds:"
 msgstr ""
 
 #: ../imagery/i.landsat.acca/algorithm.c:129
-#, c-format
 msgid "** Maximum: %.2lf K"
 msgstr ""
 
 #: ../imagery/i.landsat.acca/algorithm.c:130
-#, c-format
 msgid "** Mean (%s cloud): %.2lf K"
 msgstr ""
 
 #: ../imagery/i.landsat.acca/algorithm.c:132
-#, c-format
 msgid "** Minimum: %.2lf K"
 msgstr ""
 
@@ -9442,17 +9435,14 @@ msgid "Histogram cloud signature:"
 msgstr ""
 
 #: ../imagery/i.landsat.acca/algorithm.c:149
-#, c-format
 msgid "* Mean temperature: %.2lf K"
 msgstr ""
 
 #: ../imagery/i.landsat.acca/algorithm.c:150
-#, c-format
 msgid "* Standard deviation: %.2lf"
 msgstr ""
 
 #: ../imagery/i.landsat.acca/algorithm.c:151
-#, c-format
 msgid "* Skewness: %.2lf"
 msgstr ""
 
@@ -9462,17 +9452,14 @@ msgid "* Histogram classes: %d"
 msgstr ""
 
 #: ../imagery/i.landsat.acca/algorithm.c:164
-#, c-format
 msgid "* 98.75 percentile: %.2lf K"
 msgstr ""
 
 #: ../imagery/i.landsat.acca/algorithm.c:165
-#, c-format
 msgid "* 97.50 percentile: %.2lf K"
 msgstr ""
 
 #: ../imagery/i.landsat.acca/algorithm.c:166
-#, c-format
 msgid "* 83.50 percentile: %.2lf K"
 msgstr ""
 
@@ -9481,12 +9468,10 @@ msgid "Maximum temperature:"
 msgstr ""
 
 #: ../imagery/i.landsat.acca/algorithm.c:188
-#, c-format
 msgid "* Cold cloud: %.2lf K"
 msgstr ""
 
 #: ../imagery/i.landsat.acca/algorithm.c:189
-#, c-format
 msgid "* Warm cloud: %.2lf K"
 msgstr ""
 
@@ -12047,8 +12032,8 @@ msgstr ""
 msgid "Predict with a Support Vector Machine"
 msgstr ""
 
-#. GTC: SVM prediction input
 #. GTC: SVM training input
+#. GTC: SVM prediction input
 #: ../imagery/i.svm.predict/main.c:58 ../imagery/i.svm.train/main.c:60
 msgid "Maps with feature values (attributes)"
 msgstr ""
@@ -19835,7 +19820,6 @@ msgid "Writing output raster map..."
 msgstr ""
 
 #: ../raster/r.drain/main.c:718
-#, c-format
 msgid "direction read: %lf, neighbour found: %i"
 msgstr ""
 
@@ -22380,7 +22364,7 @@ msgstr ""
 msgid "The input dataset <%s> has undefined CRS, its extent is reported as stored in the file"
 msgstr ""
 
-#: ../raster/r.in.pdal/info.cpp:188
+#: ../raster/r.in.pdal/info.cpp:213
 #, c-format
 msgid "Reprojection of the data extent failed: %s"
 msgstr ""
@@ -25660,17 +25644,14 @@ msgid "Output raster map required"
 msgstr ""
 
 #: ../raster/r.random.surface/init.c:140
-#, c-format
 msgid "Distance value (%d): %lf must be >= 0.0"
 msgstr ""
 
 #: ../raster/r.random.surface/init.c:168
-#, c-format
 msgid "Exponent value (%lf) must be > 0.0"
 msgstr ""
 
 #: ../raster/r.random.surface/init.c:193
-#, c-format
 msgid "Flat value (%lf) must be less than distance value (%lf)"
 msgstr ""
 
@@ -26350,13 +26331,11 @@ msgstr ""
 
 #: ../raster/r.resamp.bspline/crosscorr.c:311
 #: ../vector/v.surf.bspline/crosscorr.c:297
-#, c-format
 msgid "Mean = %.5lf"
 msgstr ""
 
 #: ../raster/r.resamp.bspline/crosscorr.c:312
 #: ../vector/v.surf.bspline/crosscorr.c:298
-#, c-format
 msgid "Root Mean Square (RMS) = %.5lf"
 msgstr ""
 
@@ -26367,7 +26346,6 @@ msgstr ""
 
 #: ../raster/r.resamp.bspline/crosscorr.c:331
 #: ../vector/v.surf.bspline/crosscorr.c:317
-#, c-format
 msgid "The minimum value for the test (rms=%lf) was obtained with: lambda_i = %.3f"
 msgstr ""
 
@@ -29052,7 +29030,6 @@ msgid "Mode 2: integrated daily irradiation for a given day of the year"
 msgstr ""
 
 #: ../raster/r.sun/main.c:678
-#, c-format
 msgid "Using Linke constant: %lf"
 msgstr ""
 
@@ -29062,7 +29039,6 @@ msgid "Using Linke map <%s>"
 msgstr ""
 
 #: ../raster/r.sun/main.c:686
-#, c-format
 msgid "Using albedo constant: %lf"
 msgstr ""
 
@@ -29072,7 +29048,6 @@ msgid "Using albedo map <%s>"
 msgstr ""
 
 #: ../raster/r.sun/main.c:694
-#, c-format
 msgid "Using slope constant: %lf"
 msgstr ""
 
@@ -29082,7 +29057,6 @@ msgid "Using slope map <%s>"
 msgstr ""
 
 #: ../raster/r.sun/main.c:703
-#, c-format
 msgid "Using aspect constant: %lf"
 msgstr ""
 
@@ -29698,7 +29672,6 @@ msgid "Autogenerated random seed set to: %ld"
 msgstr ""
 
 #: ../raster/r.surf.fractal/main.c:90
-#, c-format
 msgid "Fractal dimension of %.2lf must be between 2 and 3."
 msgstr ""
 
@@ -30009,7 +29982,6 @@ msgstr ""
 msgid "Input raster must be of type CELL."
 msgstr ""
 
-#. GTC Count of window columns
 #. GTC Count of raster columns
 #. GTC Count of window columns
 #: ../raster/r.thin/io.c:112 ../raster/r.thin/io.c:188
@@ -33373,31 +33345,31 @@ msgstr ""
 msgid "'sort' not found: sorting in memory"
 msgstr ""
 
-#: ../scripts/db.univar/db.univar.py:128
+#: ../scripts/db.univar/db.univar.py:126
 #: ../vector/v.colors.out/make_colors.c:45 ../vector/v.colors/scan_attr.c:37
 #, c-format, python-format
 msgid "Column <%s> is not numeric"
 msgstr ""
 
-#: ../scripts/db.univar/db.univar.py:133
+#: ../scripts/db.univar/db.univar.py:131
 #, python-format
 msgid "Calculation for column <%s> of table <%s>..."
 msgstr ""
 
-#: ../scripts/db.univar/db.univar.py:134
+#: ../scripts/db.univar/db.univar.py:132
 msgid "Reading column values..."
 msgstr ""
 
-#: ../scripts/db.univar/db.univar.py:161
+#: ../scripts/db.univar/db.univar.py:159
 #, python-format
 msgid "Table <%s> contains no data."
 msgstr ""
 
-#: ../scripts/db.univar/db.univar.py:165
+#: ../scripts/db.univar/db.univar.py:163
 msgid "Calculating statistics..."
 msgstr ""
 
-#: ../scripts/db.univar/db.univar.py:189
+#: ../scripts/db.univar/db.univar.py:187
 msgid "No non-null values found"
 msgstr ""
 
@@ -33755,6 +33727,7 @@ msgid "Unknown extension (addon) source type '{0}'. Please report this to the gr
 msgstr ""
 
 #: ../scripts/g.extension/g.extension.py:1969
+#: ../scripts/g.extension/testsuite/test_addons_download.py:190
 msgid "Path to the source code:"
 msgstr ""
 
@@ -47349,7 +47322,6 @@ msgid "Cannot allocate memory for point"
 msgstr ""
 
 #: ../vector/v.vol.rst/user1.c:220
-#, c-format
 msgid "Can't insert %lf,%lf,%lf,%lf,%lf a=%d"
 msgstr ""
 
